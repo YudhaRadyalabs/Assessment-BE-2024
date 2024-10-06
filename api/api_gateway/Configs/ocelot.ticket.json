@@ -1,0 +1,20 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mis-dana-program-backend-app",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/dana-program/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Patch" ],
+      "SwaggerKey": "dana-program",
+      "AuthenticationOptions": {
+
+      }
+    }
+  ]
+}

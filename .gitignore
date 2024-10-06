@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/api/.vs
+/api/api _payment/obj
+/api/api_event/bin/Debug/net6.0
+/api/api_event/obj
+/api/api_gateway/bin/Debug/net6.0
+/api/api_gateway/obj
+/api/api_notification/bin/Debug/net6.0
+/api/api_notification/obj
+/api/api_ticket/bin/Debug/net6.0
+/api/api_ticket/obj
+/api/identity_server/bin/Debug/net6.0
+/api/identity_server/obj
+/api/infrastructures/bin/Debug/net6.0
+/api/infrastructures/obj
+/api/persistences/bin/Debug/net6.0
+/api/persistences/obj
